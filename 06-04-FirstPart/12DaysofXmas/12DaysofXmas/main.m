@@ -31,22 +31,18 @@ int main(int argc, const char * argv[]) {
 
 
     
-    NSArray *xmasDays = @[@"On thee First day of Christmas my true love sent to me", @"On the Second day of Christmas my true love sent to me", @"On the Third day of Christmas my true love sent to me"];
-    NSArray *xmasGifts = @[@"a Partridge in a Pear Tree", @"Two Turtle Doves", @"Three French Hens"];
+    NSArray *xmasDays = [NSArray arrayWithObjects: @"On thee First day of Christmas my true love sent to me", @"On the Second day of Christmas my true love sent to me", @"On the Third day of Christmas my true love sent to me",nil];
+    NSArray *xmasGifts = [NSArray arrayWithObjects: @"a Partridge in a Pear Tree", @"Two Turtle Doves", @"Three French Hens",nil];
     
     
-    NSMutableArray *lines = [@[] mutableCopy];
-    lines[0] = @"\n+------------------------------------------------------------+";
-    
-    for (NSInteger i = 0; i < 3; i = i + 1) {
-        [lines addObject:[NSString stringWithFormat:@"| %@ | %@ | %@ |", @(i+1), xmasDays[i], xmasGifts[i]]];
+    NSString *lines = @"\n+------------------------------------------------------------+";
+    for (int i=0; i < 3; i++){
+        NSString *output = [[xmasDays objectAtIndex:i]stringByAppendingString:@"\n"];
+        for(int j=i; j>=0;j--){
+            output = [[output stringByAppendingString:[xmasGifts objectAtIndex:j]]stringByAppendingString:@"\n"];
+        }
+        NSLog(@"\n%@",output);
     }
-    
-    [lines addObject:@"+------------------------------------------------------------+"];
-    
-    NSLog(@"%@\n%@\n%@\n%@\n", lines[0], lines[1], lines[2], lines[3]);
-
-    
     
     
     return 0;
