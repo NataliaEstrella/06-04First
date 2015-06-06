@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E31C42B3-823D-4459-B0DC-CE971537FE4D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>12DaysofXmas</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F493E99593A72474204A949C50CCF7FFEA454FF3</key>
+		<string>https://github.com/vhart/06-04First.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>06-04-FirstPart/12DaysofXmas/12DaysofXmas.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F493E99593A72474204A949C50CCF7FFEA454FF3</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vhart/06-04First.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F493E99593A72474204A949C50CCF7FFEA454FF3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F493E99593A72474204A949C50CCF7FFEA454FF3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>06-04First</string>
+		</dict>
+	</array>
+</dict>
+</plist>
