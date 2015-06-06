@@ -32,7 +32,7 @@ int main(int argc, const char * argv[]) {
     
     
     
-    int nat = 100;
+    int nat = 1001;
     int maria = 35;
     NSLog(@"nat<you; %d < %d", nat, maria);
     

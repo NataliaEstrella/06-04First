@@ -31,7 +31,7 @@ int main(int argc, const char * argv[]) {
 
 
     
-    NSArray *xmasDays = @[@"On the First day of Christmas my true love sent to me", @"On the Second day of Christmas my true love sent to me", @"On the Third day of Christmas my true love sent to me"];
+    NSArray *xmasDays = @[@"On thee First day of Christmas my true love sent to me", @"On the Second day of Christmas my true love sent to me", @"On the Third day of Christmas my true love sent to me"];
     NSArray *xmasGifts = @[@"a Partridge in a Pear Tree", @"Two Turtle Doves", @"Three French Hens"];
     
     
