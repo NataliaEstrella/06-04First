@@ -33,6 +33,8 @@ int main(int argc, const char * argv[]) {
     
     NSArray *xmasDays = @[@"On thee First day of Christmas my true love sent to me", @"On the Second day of Christmas my true love sent to me", @"On the Third day of Christmas my true love sent to me"];
     NSArray *xmasGifts = @[@"a Partridge in a Pear Tree", @"Two Turtle Doves", @"Three French Hens"];
+    NSArray *day = @[@"fourth", @"fifth"];
+    NSArray *gift = @[@"four double stuffed oreos", @"five golden twinkies"];
     
     
     NSMutableArray *lines = [@[] mutableCopy];
@@ -40,11 +42,15 @@ int main(int argc, const char * argv[]) {
     
     for (NSInteger i = 0; i < 3; i = i + 1) {
         [lines addObject:[NSString stringWithFormat:@"| %@ | %@ | %@ |", @(i+1), xmasDays[i], xmasGifts[i]]];
+        
     }
     
     [lines addObject:@"+------------------------------------------------------------+"];
     
+
     NSLog(@"%@\n%@\n%@\n%@\n", lines[0], lines[1], lines[2], lines[3]);
+    NSLog(@"On the %@ day of Christmas, my good friend Felicia gave to me %@", day[0], gift[0]);
+    NSLog(@"On the %@ day of Christmas, my good friend Felicia gave to me %@", day[1], gift[1]);
 
     
     
